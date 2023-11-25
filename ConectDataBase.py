@@ -3,7 +3,7 @@ from tkinter import Tk, Label, Entry, Button
 
 # Fungsi untuk membuat tabel jika belum ada
 def create_table():
-    conn = sqlite3.connect('c:\Kuliah\Multi\Tugas_Multi\ConectDataBase1.db.db')
+    conn = sqlite3.connect('c:nilai_siswa.db')
     cursor = conn.cursor()
 
     cursor.execute('''
